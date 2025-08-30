@@ -95,7 +95,7 @@ dependencies {
 	
 	compile "mcp.mobius.waila:Waila:${waila_version}_${mc_version}:dev"
 	
-	compile "li.cil.oc:OpenComputers:MC${mc_version}-${oc_version}-dev:dev"
+	compile "li.cil.oc:OpenComputers:MC${mc_version}-${oc_version}:dev"
 	
 	compile "info.amerifrance.guideapi:Guide-API:${mc_version}-${guideapi_version}:deobf"
     compile fileTree(dir: 'libs', include: '*.jar')
