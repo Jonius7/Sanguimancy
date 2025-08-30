@@ -17,6 +17,7 @@ public class RecipeRegistry {
 
     /**
      * Used to register crafting recipes to the guide
+     * @return IRecipe
      */
     public static IRecipe getLatestCraftingRecipe() {
         IRecipe rec = (IRecipe) CraftingManager.getInstance().getRecipeList().get(CraftingManager.getInstance().getRecipeList().size() - 1);
@@ -26,6 +27,7 @@ public class RecipeRegistry {
 
     /**
      * Used to register items to the guide
+     * @return AltarRecipe
      */
     public static AltarRecipe getLatestAltarRecipe() {
         AltarRecipe rec = (AltarRecipe) AltarRecipeRegistry.altarRecipes.get(AltarRecipeRegistry.altarRecipes.size() - 1);
